@@ -1,0 +1,62 @@
+<nav class="navbar navbar-barhop navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="#" class="navbar-brand">
+        <i class="fa fa-beer fa-1x"></i>  Barhop</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="pub">
+
+  <div class="row">
+    
+    <div class="col-md-6">
+       <img src="http://www.veryicon.com/icon/png/Object/Dine-O-Matic%20Icons/Pub.png" alt="">
+    </div>
+
+    <div class="col-md-6">
+      
+      <div class="row">
+
+        <div class="col-md-9">
+          <h1 class="name">{{venues.response.venues[index].name}}</h1>
+        </div>
+
+        <div class="col-md-3">
+          <h1><i class="fa fa-child"></i> {{(venues.response.venues[index].hereNow.count + 5)*audience}}</h1>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <p>{{venues.response.venues[index].description}}</p>
+      </div>
+
+      <div class="row">
+        <p>{{venues.response.venues[index].location.address}} New York</p>
+      </div>
+
+      <div class="row">
+        <p>Phone number: {{venues.response.venues[index].contact.formattedPhone}}</p>
+      </div>
+
+      <div class="row">
+        <a href="{{venues.response.venues[index].url}}">{{venues.response.venues[index].url}}</a>
+      </div>
+
+      
+
+      <br><br>
+      <button class="btn btn-danger" onclick="location.reload();">Try Again</button>
+
+      
+
+    </div>
+
+  </div>
+
+</div>

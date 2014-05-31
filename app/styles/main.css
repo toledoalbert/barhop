@@ -1,0 +1,130 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    min-width: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/*navbar*/
+.navbar-barhop{
+  background-color: black;
+  border-color: #060D1C;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-weight: lighter;
+}
+
+.navbar-nav{
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px !important;
+}
+
+/*Icons*/
+.fa-beer{
+  color: #E3AE10;
+}
+
+/*main area*/
+.main{
+  margin-top: 20px;
+  background: url(http://cdn01.wallconvert.com/_media/wallpapers_1280x800/1/2/blurry-city-lights-14941.jpg);
+  min-height: 800px;
+  min-width: 100%;
+}
+
+.main-in{
+  padding: 200px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.pub{
+  color: black;
+  margin-top: 20px;
+  min-height: 100%px;
+  min-width: 100%;
+  padding: 200px;
+  font-weight: lighter;
+  font-size: 25px;
+}
